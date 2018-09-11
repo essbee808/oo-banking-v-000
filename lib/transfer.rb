@@ -18,8 +18,7 @@ attr_accessor :sender, :receiver, :status, :amount
     end
   end
   
-    
-    def execute_transaction
+  def execute_transaction
     if @sender.balance < @amount
       @status = "rejected"
       return "Transaction rejected. Please check your account balance."
@@ -40,6 +39,4 @@ attr_accessor :sender, :receiver, :status, :amount
       @status = "reversed"
     end
   end
- 
-  
 end
