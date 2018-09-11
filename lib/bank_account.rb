@@ -9,8 +9,7 @@ attr_reader :name
   end
   
   def deposit(amount)
-    @balance += amount.to_i
-    @balance
+    
   end
   
   
