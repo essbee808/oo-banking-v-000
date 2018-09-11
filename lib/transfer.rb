@@ -40,21 +40,6 @@ attr_accessor :sender, :receiver, :status, :amount
       @status = "reversed"
     end
   end
-   
-    #check to see if transaction is valid
-    #can only run block once
-    
-    # if @sender.balance < @amount
-    #   @status = 'rejected'
-    #   return "Transaction rejected. Please check your account balance."
-      
-    # elsif @status = 'complete'
-    #   puts "Transaction was already executed."
-    # else
-    #calculate transaction between both accounts  
-      
-    
-
  
   
 end
